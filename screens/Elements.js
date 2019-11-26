@@ -26,7 +26,7 @@ class Elements extends React.Component {
         <Block style={{ paddingHorizontal: theme.SIZES.BASE }}>
           <Block center>
             <Button color="default" style={styles.button}>
-              DEFAULT
+              PADRÃO
             </Button>
           </Block>
           <Block center>
@@ -35,11 +35,11 @@ class Elements extends React.Component {
               textStyle={{ color: "black", fontSize: 12, fontWeight: "700" }}
               style={styles.button}
             >
-              SECONDARY
+              SECUNDÁRIO
             </Button>
           </Block>
           <Block center>
-            <Button style={styles.button}>PRIMARY</Button>
+            <Button style={styles.button}>PRIMÁRIO</Button>
           </Block>
           <Block center>
             <Button color="info" style={styles.button}>
@@ -48,17 +48,17 @@ class Elements extends React.Component {
           </Block>
           <Block center>
             <Button color="success" style={styles.button}>
-              SUCCESS
+              SUCESSO
             </Button>
           </Block>
           <Block center>
             <Button color="warning" style={styles.button}>
-              WARNING
+              AVISO
             </Button>
           </Block>
           <Block center>
             <Button color="error" style={styles.button}>
-              ERROR
+              ERRO
             </Button>
           </Block>
           <Block row space="evenly">
@@ -70,12 +70,12 @@ class Elements extends React.Component {
             </Block>
             <Block flex center>
               <Button small center color="default" style={styles.optionsButton}>
-                DELETE
+                DELETAR
               </Button>
             </Block>
             <Block flex={1.25} right>
               <Button center color="default" style={styles.optionsButton}>
-                SAVE FOR LATER
+                SALVAR PRA DEPOIS
               </Button>
             </Block>
           </Block>
@@ -88,7 +88,7 @@ class Elements extends React.Component {
     return (
       <Block flex style={styles.group}>
         <Text bold size={16} style={styles.title}>
-          Typography
+          Tipografia
         </Text>
         <Block style={{ paddingHorizontal: theme.SIZES.BASE }}>
           <Text
@@ -96,44 +96,44 @@ class Elements extends React.Component {
             style={{ marginBottom: theme.SIZES.BASE / 2 }}
             color={argonTheme.COLORS.DEFAULT}
           >
-            Heading 1
+            Header 1
           </Text>
           <Text
             h2
             style={{ marginBottom: theme.SIZES.BASE / 2 }}
             color={argonTheme.COLORS.DEFAULT}
           >
-            Heading 2
+            Header 2
           </Text>
           <Text
             h3
             style={{ marginBottom: theme.SIZES.BASE / 2 }}
             color={argonTheme.COLORS.DEFAULT}
           >
-            Heading 3
+            Header 3
           </Text>
           <Text
             h4
             style={{ marginBottom: theme.SIZES.BASE / 2 }}
             color={argonTheme.COLORS.DEFAULT}
           >
-            Heading 4
+            Header 4
           </Text>
           <Text
             h5
             style={{ marginBottom: theme.SIZES.BASE / 2 }}
             color={argonTheme.COLORS.DEFAULT}
           >
-            Heading 5
+            Header 5
           </Text>
           <Text
             p
             style={{ marginBottom: theme.SIZES.BASE / 2 }}
             color={argonTheme.COLORS.DEFAULT}
           >
-            Paragraph
+            Parágrafo
           </Text>
-          <Text muted>This is a muted paragraph.</Text>
+          <Text muted>Esse é um parágrafo silenciado.</Text>
         </Block>
       </Block>
     );
@@ -143,15 +143,15 @@ class Elements extends React.Component {
     return (
       <Block flex style={styles.group}>
         <Text bold size={16} style={styles.title}>
-          Inputs
+          Entradas
         </Text>
         <Block style={{ paddingHorizontal: theme.SIZES.BASE }}>
-          <Input right placeholder="Regular" iconContent={<Block />} />
+          <Input right placeholder="Padrão" iconContent={<Block />} />
         </Block>
         <Block style={{ paddingHorizontal: theme.SIZES.BASE }}>
           <Input
             right
-            placeholder="Regular Custom"
+            placeholder="Padrão customizado"
             style={{
               borderColor: argonTheme.COLORS.INFO,
               borderRadius: 4,
@@ -162,7 +162,7 @@ class Elements extends React.Component {
         </Block>
         <Block style={{ paddingHorizontal: theme.SIZES.BASE }}>
           <Input
-            placeholder="Icon left"
+            placeholder="Ícone na esquerda"
             iconContent={
               <Icon
                 size={11}
@@ -177,7 +177,7 @@ class Elements extends React.Component {
         <Block style={{ paddingHorizontal: theme.SIZES.BASE }}>
           <Input
             right
-            placeholder="Icon Right"
+            placeholder="Ícone na direita"
             iconContent={
               <Icon
                 size={11}
@@ -192,7 +192,7 @@ class Elements extends React.Component {
           <Input
             success
             right
-            placeholder="Success"
+            placeholder="Sucesso"
             iconContent={
               <Block
                 middle
@@ -217,7 +217,7 @@ class Elements extends React.Component {
           <Input
             error
             right
-            placeholder="Error Input"
+            placeholder="Erro de entrada"
             iconContent={
               <Block
                 middle
@@ -255,14 +255,14 @@ class Elements extends React.Component {
             space="between"
             style={{ marginBottom: theme.SIZES.BASE }}
           >
-            <Text size={14}>Switch is ON</Text>
+            <Text size={14}>Switch ligado</Text>
             <Switch
               value={this.state["switch-1"]}
               onValueChange={() => this.toggleSwitch("switch-1")}
             />
           </Block>
           <Block row middle space="between">
-            <Text size={14}>Switch is OFF</Text>
+            <Text size={14}>Switch desligado</Text>
             <Switch
               value={this.state["switch-2"]}
               onValueChange={() => this.toggleSwitch("switch-2")}
@@ -278,13 +278,13 @@ class Elements extends React.Component {
     return (
       <Block flex style={styles.group}>
         <Text bold size={16} style={styles.title}>
-          Table Cell
+          Tabela em células
         </Text>
         <Block style={{ paddingHorizontal: theme.SIZES.BASE }}>
           <Block style={styles.rows}>
             <TouchableOpacity onPress={() => navigation.navigate("Pro")}>
               <Block row middle space="between" style={{ paddingTop: 7 }}>
-                <Text size={14}>Manage Options</Text>
+                <Text size={14}>Opções</Text>
                 <Icon
                   name="chevron-right"
                   family="entypo"
@@ -359,28 +359,28 @@ class Elements extends React.Component {
         </Text>
         <Block>
           <Block style={{ marginBottom: theme.SIZES.BASE }}>
-            <Header back title="Title" navigation={this.props.navigation} />
+            <Header back title="Título" navigation={this.props.navigation} />
           </Block>
 
           <Block style={{ marginBottom: theme.SIZES.BASE }}>
-            <Header white back title="Title" navigation={this.props.navigation} bgColor={argonTheme.COLORS.ACTIVE} titleColor="white" iconColor="white" />
+            <Header white back title="Título" navigation={this.props.navigation} bgColor={argonTheme.COLORS.ACTIVE} titleColor="white" iconColor="white" />
           </Block>
 
           <Block style={{ marginBottom: theme.SIZES.BASE }}>
-            <Header search title="Title" navigation={this.props.navigation} />
+            <Header search title="Título" navigation={this.props.navigation} />
           </Block>
 
           <Block style={{ marginBottom: theme.SIZES.BASE }}>
-            <Header tabs={tabs.categories} search title="Title" navigation={this.props.navigation} />
+            <Header tabs={tabs.categories} search title="Título" navigation={this.props.navigation} />
           </Block>
 
           <Block style={{ marginBottom: theme.SIZES.BASE }}>
             <Header
               options
               search
-              title="Title"
-              optionLeft="Option 1"
-              optionRight="Option 2"
+              title="Título"
+              optionLeft="Opção 1"
+              optionRight="Opção 2"
               navigation={this.props.navigation}
             />
           </Block>

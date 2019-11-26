@@ -7,9 +7,9 @@ import argonTheme from '../constants/Theme';
 
 const defaultMenu = [
   { id: 'popular', title: 'Popular', },
-  { id: 'beauty', title: 'Beauty', },
-  { id: 'cars', title: 'Cars', },
-  { id: 'motocycles', title: 'Motocycles', },
+  { id: 'beauty', title: 'Beleza', },
+  { id: 'cars', title: 'Carros', },
+  { id: 'motocycles', title: 'Motos', },
 ];
 
 export default class Tabs extends React.Component {

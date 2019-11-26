@@ -26,7 +26,7 @@ class Register extends React.Component {
             <Block style={styles.registerContainer}>
               <Block flex={0.25} middle style={styles.socialConnect}>
                 <Text color="#8898AA" size={12}>
-                  Sign up with
+                  Não possui uma conta?
                 </Text>
                 <Block row style={{ marginTop: theme.SIZES.BASE }}>
                   <Button style={{ ...styles.socialButtons, marginRight: 30 }}>
@@ -58,7 +58,7 @@ class Register extends React.Component {
               <Block flex>
                 <Block flex={0.17} middle>
                   <Text color="#8898AA" size={12}>
-                    Or sign up the classic way
+                    Ou se cadastre da maneira tradicional
                   </Text>
                 </Block>
                 <Block flex center>
@@ -70,7 +70,7 @@ class Register extends React.Component {
                     <Block width={width * 0.8} style={{ marginBottom: 15 }}>
                       <Input
                         borderless
-                        placeholder="Name"
+                        placeholder="Nome"
                         iconContent={
                           <Icon
                             size={16}
@@ -101,7 +101,7 @@ class Register extends React.Component {
                       <Input
                         password
                         borderless
-                        placeholder="Password"
+                        placeholder="Senha"
                         iconContent={
                           <Icon
                             size={16}
@@ -114,11 +114,11 @@ class Register extends React.Component {
                       />
                       <Block row style={styles.passwordCheck}>
                         <Text size={12} color={argonTheme.COLORS.MUTED}>
-                          password strength:
+                          Força da senha:
                         </Text>
                         <Text bold size={12} color={argonTheme.COLORS.SUCCESS}>
                           {" "}
-                          strong
+                          forte
                         </Text>
                       </Block>
                     </Block>
@@ -128,7 +128,7 @@ class Register extends React.Component {
                           borderWidth: 3
                         }}
                         color={argonTheme.COLORS.PRIMARY}
-                        label="I agree with the"
+                        label="Eu concordo com os"
                       />
                       <Button
                         style={{ width: 100 }}
@@ -138,13 +138,13 @@ class Register extends React.Component {
                           fontSize: 14
                         }}
                       >
-                        Privacy Policy
+                        Termos de Uso
                       </Button>
                     </Block>
                     <Block middle>
                       <Button color="primary" style={styles.createButton}>
                         <Text bold size={14} color={argonTheme.COLORS.WHITE}>
-                          CREATE ACCOUNT
+                          CRIAR CONTA
                         </Text>
                       </Button>
                     </Block>

@@ -49,13 +49,13 @@ class Profile extends React.Component {
                       small
                       style={{ backgroundColor: argonTheme.COLORS.INFO }}
                     >
-                      CONNECT
+                      CONECTAR
                     </Button>
                     <Button
                       small
                       style={{ backgroundColor: argonTheme.COLORS.DEFAULT }}
                     >
-                      MESSAGE
+                      MENSAGEM
                     </Button>
                   </Block>
                   <Block row space="between">
@@ -68,7 +68,7 @@ class Profile extends React.Component {
                       >
                         2K
                       </Text>
-                      <Text size={12}>Orders</Text>
+                      <Text size={12}>Pedidos</Text>
                     </Block>
                     <Block middle>
                       <Text
@@ -79,7 +79,7 @@ class Profile extends React.Component {
                       >
                         10
                       </Text>
-                      <Text size={12}>Photos</Text>
+                      <Text size={12}>Fotos</Text>
                     </Block>
                     <Block middle>
                       <Text
@@ -90,14 +90,14 @@ class Profile extends React.Component {
                       >
                         89
                       </Text>
-                      <Text size={12}>Comments</Text>
+                      <Text size={12}>Comentarios</Text>
                     </Block>
                   </Block>
                 </Block>
                 <Block flex>
                   <Block middle style={styles.nameInfo}>
                     <Text bold size={28} color="#32325D">
-                      Jessica Jones, 27
+                      Carla Jones, 27
                     </Text>
                     <Text size={16} color="#32325D" style={{ marginTop: 10 }}>
                       San Francisco, USA
@@ -112,7 +112,7 @@ class Profile extends React.Component {
                       color="#525F7F"
                       style={{ textAlign: "center" }}
                     >
-                      An artist of considerable range, Jessica name taken by
+                      Artista de certo renome no mercado, o nome Carla foi inspirado na cidade de
                       Melbourne …
                     </Text>
                     <Button
@@ -123,7 +123,7 @@ class Profile extends React.Component {
                         fontSize: 16
                       }}
                     >
-                      Show more
+                      Mostrar mais
                     </Button>
                   </Block>
                   <Block
@@ -143,7 +143,7 @@ class Profile extends React.Component {
                       color="transparent"
                       textStyle={{ color: "#5E72E4", fontSize: 12 }}
                     >
-                      View all
+                      Ver tudo
                     </Button>
                   </Block>
                   <Block style={{ paddingBottom: -HeaderHeight * 2 }}>
